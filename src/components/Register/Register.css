@@ -1,0 +1,85 @@
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+}
+
+.login-text-fields {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+.input-field {
+    color: #56A4FF;
+    outline: none;
+    border: 1px solid #56A4FF;
+    padding: 0.9rem;
+    font-size: 0.9rem;
+    background-color: #D7E9FF;
+    min-width: 300px;
+}
+
+.input-field::placeholder {
+    color: #56A4FF;
+}
+
+.input-field:focus {
+    border-color: #56A4FF;
+}
+
+/* Remove arrows from PRN field */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.login-btn {
+    height: 40px;
+    width: 90px;
+    background-color: #56A4FF;
+    color: #D7E9FF;
+    box-shadow: none;
+    border: 1px solid #D7E9FF;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    color: #56A4FF;
+    background-color: #D7E9FF;
+    transition: 0.3s;
+}
+
+.tick-box {
+    /* ...existing styles */
+    display: grid;
+    place-content: center;
+}
+
+.tick-box::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+}
+
+.tick-box:checked::before {
+    transform: scale(1);
+}
