@@ -1,17 +1,4 @@
-/* Remove arrows from PRN field */
-/* Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
-/* Firefox */
-input[type=number] {
-    -moz-appearance: textfield;
-}
-
-.register-container {
+.login-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +6,7 @@ input[type=number] {
     height: 80vh;
 }
 
-.register-fields {
+.login-fields {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,12 +17,12 @@ input[type=number] {
     border-radius: 10px;
 }
 
-.register-title {
+.login-title {
     color: #56A4FF;
     font-weight: bold;
 }
 
-.register-field {
+.login-field {
     height: 2rem;
     border: none;
     background-color: #D7E9FF;
@@ -45,27 +32,31 @@ input[type=number] {
     padding: 10px;
 }
 
-.register-field::placeholder {
+.login-field::placeholder {
     color: #56A4FF;
 }
 
-.register-btn {
-    border: 1px solid #D7E9FF;
+.login-btn {
     background-color: #56A4FF;
     color: #D7E9FF;
+    box-shadow: none;
+    border: 1px solid #D7E9FF;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 2px;
+    transition: 0.3s;
     font-size: 1.2rem;
     padding: 10px 20px;
 }
 
-.register-btn:hover {
+.login-btn:hover {
     color: #56A4FF;
     background-color: #D7E9FF;
     transition: 0.3s;
     cursor: pointer;
 }
 
-
-.login-redirect {
+.register-redirect {
     color: #56A4FF;
     text-decoration: none;
 }

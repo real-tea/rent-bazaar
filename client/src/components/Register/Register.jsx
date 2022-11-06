@@ -3,15 +3,17 @@ import { BubblyLink } from 'react-bubbly-transitions';
 import './Register.css';
 export default function Register() {
     return (
-        <form className='login-form'>
-            <ul className='login-text-fields'>
-                <li><input className='input-field' type='text' placeholder='College Email'></input></li>
-                <li><input className='input-field' type='number' placeholder='College PRN'></input></li>
-                <li><input className='input-field' type='password' placeholder='Create Password'></input><input className='tick-box' type="checkbox"></input></li>
-                <li><input className='input-field' type='password' placeholder='Confirm Password'></input></li>
-            </ul>
-            <button className='login-btn' type='submit'>Login</button>
-            Already registered <BubblyLink to='/login'>Login Here</BubblyLink>
-        </form>
+        <div className='register-container'>
+            <div className='register-fields'>
+                <p className='register-title'>USER REGISTRATION</p>
+                <input className='register-field' type='text' placeholder='College Email'></input>
+                <input className='register-field' type='number' placeholder='College PRN'></input>
+                <input className='register-field' type='text' placeholder='Your Name'></input>
+                <input className='register-field' type='password' placeholder='Create Password'></input>
+                <input className='register-field' type='password' placeholder='Confirm Password'></input>
+                <button className='register-btn'>Register</button>
+                <div className='login-redirect'><BubblyLink to='/login' colorStart='#56A4FF' colorEnd='#D7E9FF'>Click here to <b>login</b></BubblyLink></div>
+            </div >
+        </div >
     )
 }
