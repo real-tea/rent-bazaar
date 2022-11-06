@@ -1,0 +1,24 @@
+{
+  "name": "rent-bazaar",
+  "version": "1.0.0",
+  "description": "A portal for college students to rent out or sell stuff to their juniors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "rent-bazaar"
+  },
+  "keywords": [
+    "rent-bazaar",
+    "rent",
+    "bazaar",
+    "portal"
+  ],
+  "author": "Siddharth Khatri",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
