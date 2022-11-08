@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { BubblyContainer } from "react-bubbly-transitions";
 import Home from './components/Home/Home';
