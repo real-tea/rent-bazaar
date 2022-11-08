@@ -1,0 +1,15 @@
+.items-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .items-list {
+        display: flex;
+        flex-direction: column;
+    }
+}

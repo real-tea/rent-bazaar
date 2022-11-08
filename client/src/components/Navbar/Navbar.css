@@ -5,6 +5,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+    background: #D7E9FF;
+}
+
 nav {
     display: flex;
     justify-content: space-between;

@@ -1,0 +1,36 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 50px 100px 0 100px;
+}
+
+.home-nav-buttons {
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-buy-btn,
+.home-sell-btn {
+    background-color: #56A4FF;
+    color: #D7E9FF;
+    box-shadow: none;
+    border: 1px solid #D7E9FF;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 2px;
+    transition: 0.3s;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+.home-sell-btn:hover,
+.home-buy-btn:hover {
+    color: #56A4FF;
+    background-color: #D7E9FF;
+    transition: 0.3s;
+    cursor: pointer;
+}

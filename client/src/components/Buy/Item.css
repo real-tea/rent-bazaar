@@ -1,0 +1,38 @@
+.item-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    word-wrap: break-word;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.item-title {
+    font-weight: bold;
+    color: #56A4FF;
+}
+
+.item-contact {
+    border: 1px solid #D7E9FF;
+    background-color: #56A4FF;
+    color: #D7E9FF;
+    padding: 7px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+}
+
+.item-contact:hover {
+    color: #56A4FF;
+    background-color: #D7E9FF;
+    transition: 0.3s;
+    cursor: pointer;
+}

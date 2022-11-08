@@ -1,0 +1,68 @@
+.sell-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.sell-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    padding: 70px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.sell-title {
+    font-weight: bold;
+    color: #56A4FF;
+}
+
+.sell-field {
+    height: 2rem;
+    border: none;
+    background-color: #D7E9FF;
+    color: #56A4FF;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 10px;
+    width: 300px;
+}
+
+.sell-field::placeholder {
+    color: #56A4FF;
+}
+
+textarea {
+    width: 300px;
+    height: 100px !important;
+    resize: none;
+}
+
+.publish-btn {
+    background-color: #56A4FF;
+    color: #D7E9FF;
+    box-shadow: none;
+    border: 1px solid #D7E9FF;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 2px;
+    transition: 0.3s;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+.publish-btn:hover {
+    color: #56A4FF;
+    background-color: #D7E9FF;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.register-redirect {
+    color: #56A4FF;
+    text-decoration: none;
+}

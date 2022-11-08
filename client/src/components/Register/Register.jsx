@@ -9,6 +9,7 @@ export default function Register() {
                 <input className='register-field' type='text' placeholder='College Email'></input>
                 <input className='register-field' type='number' placeholder='College PRN'></input>
                 <input className='register-field' type='text' placeholder='Your Name'></input>
+                <input className='register-field' type='number' placeholder='Phone Number'></input>
                 <input className='register-field' type='password' placeholder='Create Password'></input>
                 <input className='register-field' type='password' placeholder='Confirm Password'></input>
                 <button className='register-btn'>Register</button>
