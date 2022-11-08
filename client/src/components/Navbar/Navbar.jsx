@@ -8,7 +8,7 @@ export default function Navbar() {
                 <li className='nav-link'><a href='/dashboard'>DASHBOARD</a></li>
                 <li className='nav-link'><a href='/sell'>SELL</a></li>
                 <li className='nav-link'><a href='/buy'>BUY</a></li>
-                <li className='nav-link'><a href='/login'>LOGIN</a></li>
+                <li className='nav-link'><a href='/login'>ACCOUNT</a></li>
             </ul>
         </nav>
     )
