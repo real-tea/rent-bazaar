@@ -39,7 +39,7 @@ export default function Buy() {
         <div className='buy-container'>
             <div className='items-list'>
                 {data.map((item) => (
-                    <Item name={item.itemName} owner={item.itemOwner} price={item.itemPrice} description={item.itemDescription} key={item.id} />
+                    <Item name={item.itemName} owner={item.itemOwner} price={item.itemPrice} description={item.itemDescription} ownerPhone={item.itemOwnerPhone} key={item.id} />
                 ))}
             </div>
         </div>

@@ -30,6 +30,11 @@
     border-radius: 5px;
 }
 
+.item-description {
+    min-height: 120px;
+    max-height: 120px;
+}
+
 .item-contact:hover {
     color: #56A4FF;
     background-color: #D7E9FF;
